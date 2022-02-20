@@ -1,0 +1,33 @@
+@import "../../sass/styles.scss";
+
+.SingleUserPage {
+	margin: 15px auto;
+	width: 55vw;
+
+	&__info-container {
+		display: flex;
+		gap: 25px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__img-container {
+		width: 200px;
+		height: 200px;
+		border-radius: 10px;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+		}
+	}
+
+	&__bio {
+		text-align: center;
+		margin: 10px;
+	}
+}
+
+@import "../../sass/mobile.scss";

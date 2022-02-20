@@ -1,0 +1,36 @@
+@import "../../sass/styles.scss";
+
+.SingleUser {
+	&__error {
+		@include error-request;
+	}
+
+	&__container {
+		@include item-card;
+	}
+
+	&__image-container {
+		width: 80px;
+		height: 80px;
+		border-radius: 5px;
+		overflow: hidden;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__username {
+		flex-grow: 1;
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	&__repos {
+		width: 15%;
+		text-align: left;
+	}
+}
+
+@import "../../sass/mobile.scss";

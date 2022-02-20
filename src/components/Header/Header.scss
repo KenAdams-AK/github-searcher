@@ -1,0 +1,16 @@
+@import "../../sass/styles.scss";
+
+.header {
+	background: #333;
+	padding: 10px 15px;
+	text-align: center;
+
+	.Header {
+		&__title {
+			display: inline-block;
+			color: #ccc;
+		}
+	}
+}
+
+@import "../../sass/mobile.scss";

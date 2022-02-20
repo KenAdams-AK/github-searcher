@@ -1,0 +1,14 @@
+@import "../../sass/styles.scss";
+
+.SearchBar {
+	text-align: center;
+	background: #333;
+	padding: 15px 5px;
+	input {
+		width: 35vw;
+		padding: 10px;
+		border-radius: 5px;
+	}
+}
+
+@import "../../sass/mobile.scss";

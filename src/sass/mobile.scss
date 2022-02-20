@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+	.main {
+		.UsersList {
+			&__item {
+				width: 65vw;
+			}
+		}
+	}
+
+	.SearchBar input {
+		width: 40vw;
+	}
+}
+
+@media (max-width: 768px) {
+	.main {
+		.UsersList {
+			&__item {
+				width: 85vw;
+			}
+		}
+	}
+	.SearchBar input {
+		width: 70vw;
+	}
+
+	.SingleUserPage {
+		width: 85vw;
+	}
+}

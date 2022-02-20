@@ -1,0 +1,26 @@
+@mixin error-request {
+	color: red;
+	text-align: center;
+	margin: 15px 10px;
+}
+
+@mixin not-found-request {
+	color: #666;
+	text-align: center;
+	margin: 15px 10px;
+}
+
+@mixin item-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 20px 5px 10px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 #333;
+
+	&:hover {
+		transform: scale(1.01);
+		transition: all 0.3s ease;
+	}
+}

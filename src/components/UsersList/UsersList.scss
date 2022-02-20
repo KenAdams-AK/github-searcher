@@ -1,0 +1,28 @@
+@import "../../sass/styles.scss";
+
+.main {
+	.UsersList {
+		&__list {
+			margin: 25px 0;
+		}
+
+		&__item {
+			margin: 10px auto;
+			width: 55vw;
+
+			&-error {
+				@include error-request;
+			}
+		}
+
+		&__error {
+			@include error-request;
+		}
+
+		&__not-found {
+			@include not-found-request;
+		}
+	}
+}
+
+@import "../../sass/mobile.scss";

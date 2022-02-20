@@ -1,0 +1,18 @@
+@import "../../sass/styles.scss";
+
+.Repos {
+	&__item {
+		@include item-card;
+		margin: 10px 0;
+	}
+
+	&__error {
+		@include error-request;
+	}
+
+	&__not-found {
+		@include not-found-request;
+	}
+}
+
+@import "../../sass/mobile.scss";
